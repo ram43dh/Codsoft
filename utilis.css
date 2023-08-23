@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Ubuntu', sans-serif;
+}
+.max-sec1{
+     display: flex; 
+     align-items: center;
+    max-width: 100%;
+    margin: 20px;
+    /* border: 2px solid red; */
+}
+
+.btn1{
+    border: 2px solid white;
+    background-color: darkviolet;
+    padding: 10px 12px;
+    border-radius: 12px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    color:blue;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(227, 56, 161);
+}
+
+.btn{
+    padding:7px 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(76, 227, 56);;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+.pricing{
+    background-color: rgba(156, 182, 206, 0.664);
+}
