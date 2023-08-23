@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+.bg-color{
+    background-color: rgb(177, 17, 49);
+}
+.color1{
+    color:rgb(50, 231, 18);
+}
+.navbar{
+     display: flex; 
+     justify-content: flex-end; 
+    
+}
+.lists{
+    list-style: none;
+    
+}
+.navigation{
+     display:flex; 
+    height: 10vh;
+    
+}
+.basic{
+    margin: 10px 15px;
+    padding: 5px;
+    border: 2px solid rgb(34, 45, 201);
+}
+.mainheader{
+    display: flex;
+    justify-content: center;
+    
+}
+.section2{
+    padding: 73px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid rgb(15, 199, 231);
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid rgb(226, 15, 15); 
+} 
+ 
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 73px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
